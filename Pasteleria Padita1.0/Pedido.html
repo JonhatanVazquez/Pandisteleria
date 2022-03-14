@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandiPedido</title>
+</head>
+<body>
+    <img src="./Pandisteleria.png" alt="Logop" width="400px">
+    <h1>Aqui puede hacer su Pandi-pedido </h1>
+    <br>
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre Padiclente</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <br><br>
+
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="numero1"> <br><br>
+    
+        <label for="tel1">Número de telefono</label> <br>
+        <input type="tel" name="tel1" id="tel1" maxlength="10"> <br> <br>
+        
+        <p>¿Sabores cominados o solo uno?</p> <br>
+        <input type="radio" name="solo1" id="solo1" value="solo1">
+        <label for="solo1">Solo</label> <br>
+        <input type="radio" name="combinado1" id="combinado1" value="combinado1">
+        <label for="combinado1">Combinado</label> <br>
+        <br>
+        <p>De ser varios sabores elijelos</p>
+
+        <h2>Elija tus sabores</h2>
+        <input type="checkbox" name="tresleches" id="tresleches" value="tresleches">
+        <label for="tresleches">Tres leches</label> <br>
+        <input type="checkbox" name="Imposible" id="imposible" value="imposible">
+        <label for="tresleches">Imposible</label> <br>
+        <input type="checkbox" name="CrazyPandi" id="CrazyPandi" value="CrazyPandi">
+        <label for="tresleches">CrazyPandi</label> <br>
+        <input type="checkbox" name="PandiLunar" id="PandiLunar" value="PandiLunar">
+        <label for="tresleches">PandiLunar</label> <br>
+        <input type="checkbox" name="chocolate" id="chocolate" value="chocolate">
+        <label for="tresleches">chocolate</label> <br>
+        <input type="checkbox" name="tresleches" id="tres leches" value="tresleches">
+        <label for="tresleches">Vainilla</label> <br>
+
+
+        <p>¿Adornos combinados o solo uno?</p> <br>
+        <input type="radio" name="solo2" id="solo2" value="solo2">
+        <label for="solo2">Solo</label> <br>
+        <input type="radio" name="combinado2" id="combinado2" value="combinado2">
+        <label for="combinado2">Combinado</label> <br>
+
+
+        <h2>Elija sus adornos</h2>
+        <input type="checkbox" name="Clasico1" id="Clasico1" value="Clasico1">
+        <label for="Clasico1">Clasico</label> <br>
+
+        <input type="checkbox" name="alrededor1" id="alrededor1" value="alrededor1">
+        <label for="alrededor1">Rollitos de chocolate</label><br>
+
+        <input type="checkbox" name="animalito1" id="animalito1" value="animalito1">
+        <label for="animalito1">Figuritas de animalitos</label> <br>
+
+        <input type="checkbox" name="fondant1" id="fondant1" value="fondant1">
+        <label for="fondant1">Fondant</label><br>
+
+        <input type="checkbox" name="fruta1" id="fruta1" value="fruta1">
+        <label for="fruta1">Fruta</label> <br>
+
+        <input type="checkbox" name="solo3" id="solo3" value="solo3">
+        <label for="solo3">Solo</label> <br>
+
+        <br>
+        <p>Y para tomar</p>
+        <br>
+        <label for="refresco">Elige tu refresco favorito</label><br>
+        <input list="refresco">
+        <datalist id="refresco">
+        <option value="Coca-Cola">
+        <option value="Manzana">
+        <option value="Naranja">
+        <option value="Mango">
+        <option value="Guayaba">
+        </datalist>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br>
+        <p>Direccion: Colonia Colonia del Valle Av. Colombia #654</p>
+</body>
+</html>
